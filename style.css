@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background-color: #0c090a;
+}
+
+.container {
+    width: 60%;
+    height: 80vh;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 12px 12px 50px #F6E8EA, -12px -12px 50px #ffffff
+}
+
+.content 
+    {
+        width: 100%;
+        margin-top: 1.7em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+.display #screen {
+    width: 97%;
+    height: 100px;
+    font-size: 40px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background-color: #84DCCF;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #cbced1;
+}
+
+.btns {
+    width: 100%;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btns .row button {
+    background-color: #fe717a;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: oblique;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px #00000020, -5px -5px 8px #ffffff;
+    transition: 0.3s;
+}
+
+.btns .row button:hover {
+    box-shadow: inset 5px 5px 4px #84dcdc51, inset -5px -5px 4px #F6E8EA;
+    background-color: #eb333f;
+
+}
+
+#eval{
+    background-color: #52FFB8;
+    
+}
+
+#eval:hover{
+    box-shadow: inset 5px 5px 4px #84dcdc51, inset -5px -5px 4px #F6E8EA;
+
+}
+
+#ac{
+    background-color: #ebebeb;
+}
+
+#ce{
+    background-color: #FAB2EA;
+}
+
